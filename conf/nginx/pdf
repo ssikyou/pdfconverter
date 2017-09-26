@@ -1,13 +1,13 @@
 server {
     listen 80;
-    server_name www.pdfconvert.world;
-    return 301 $scheme://pdfconvert.world$request_uri;
+    server_name www.pdfconverts.world;
+    return 301 $scheme://pdfconverts.world$request_uri;
 }
 
 server {
     listen 80;
 
-    server_name pdfconvert.world;
+    server_name pdfconverts.world;
 
     access_log  /root/pdfconverter/pdfconverter/log/pdf-access.log;
     error_log  /root/pdfconverter/pdfconverter/log/pdf-error.log;
