@@ -1,3 +1,23 @@
+/* stick footer to bottom */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /*height: 60px;*/
+  /*background-color: black;*/
+}
+/* stick footer to bottom */
+
+
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background: url('../img/bg.jpg') no-repeat center center fixed;
@@ -72,7 +92,7 @@ hr {
 }
 
 .box {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);

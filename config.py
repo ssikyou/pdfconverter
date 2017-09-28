@@ -13,6 +13,7 @@ class Config:
     WEB_ADMIN = os.environ.get('WEB_ADMIN')
     FACEBOOK_APP_ID = os.environ.get('FACEBOOK_APP_ID')
     GA_TRACK_ID = os.environ.get('GA_TRACK_ID')
+    UPLOAD_FOLDER = '/root/upload'
 
     @staticmethod
     def init_app(app):
